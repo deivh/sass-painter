@@ -1,0 +1,23 @@
+// variables
+$divFlex: flex;
+$textColortopRight: grey;
+$listPadding: 15px;
+$listMargin: 5px;
+$logoImgWidth: 85px;
+$textColorMenu: white;
+
+
+// mixins
+@mixin myListTypeMenu {
+    display: flex;
+    list-style-type: none;
+}
+
+@mixin linkStyleText {
+    text-decoration: none;
+    color: $textColorMenu;
+    &:hover {
+        text-decoration: underline;
+        text-shadow: 1px 1px lightgrey;;
+    }
+}

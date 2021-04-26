@@ -1,0 +1,40 @@
+// regole header
+header {
+    nav {
+        background-color: black;
+        
+        div.topRight {
+            display: $divFlex;
+            justify-content: flex-end;
+            ul{
+                @include myListTypeMenu;
+
+                li {
+                    // si può sostituire con un mixin
+                    color: $textColortopRight;
+                    padding: $listPadding;
+                    margin: $listMargin;
+                }
+            }
+        };
+        div.menu{
+            display: $divFlex;
+            justify-content: center;
+            img {
+                width: $logoImgWidth;
+                height: auto;
+            }
+            ul {
+                @include myListTypeMenu;
+                li {
+                    color: $textColorMenu;
+                    padding: $listPadding;
+                    margin: $listMargin;
+                    a {
+                        @include linkStyleText;
+                     }
+                }
+            }
+        }
+    }
+}
