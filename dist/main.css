@@ -71,8 +71,64 @@ header div.jumbotron div.leftCard div.rightButton {
   display: inline-block;
 }
 
+main div.adBox {
+  margin: auto;
+  width: 90%;
+}
+main div.adBox h2 {
+  text-align: center;
+}
+main div.adBox div.adBoxContainer {
+  display: flex;
+}
+main div.adBox div.adBoxContainer div.adCard {
+  margin: 10px;
+  background-color: white;
+  width: 33%;
+}
+main div.adBox div.adBoxContainer div.adCard img {
+  width: 100%;
+}
+main div.serviceBox {
+  margin: 10px auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+main div.serviceBox div.card {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main div.serviceBox div.card img {
+  height: 100%;
+  width: auto;
+}
+main div.contactsList {
+  display: flex;
+  justify-content: space-around;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+main {
+  background-color: #ada7a7;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.lightblue {
+  background-color: lightskyblue;
 }

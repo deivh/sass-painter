@@ -6,6 +6,7 @@ $listMargin: 5px;
 $logoImgWidth: 85px;
 $textColorMenu: white;
 $buttonBorder: 1px solid black;
+$oneThirdWidth: calc(100% / 3);
 
 // mixins
 @mixin myListTypeMenu {

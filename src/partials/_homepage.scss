@@ -55,3 +55,50 @@ header {
         
     }
 }
+
+main {
+    div.adBox {
+        margin: auto;
+        width: 90%;
+        h2{
+            text-align: center;
+        }
+        div.adBoxContainer{
+            display: $divFlex;
+          
+            div.adCard {
+                margin: 10px;
+                background-color: white;
+                width: 33%;
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    div.serviceBox {
+        margin: 10px auto;
+        width: 90%;
+        display: $divFlex;
+        flex-wrap: wrap;
+        div.card{
+            width: 50%;
+            height: 400px;
+            display: $divFlex;
+            flex-direction: column;
+            justify-content: center;
+            img { 
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+
+    div.contactsList {
+        display: $divFlex;
+        justify-content: space-around;
+    }
+    
+}
