@@ -39,6 +39,37 @@ header nav div.menu ul li a:hover {
   text-decoration: underline;
   text-shadow: 1px 1px lightgrey;
 }
+header div.jumbotron {
+  background-image: url(img/bg-painter-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+}
+header div.jumbotron div.leftCard {
+  margin-left: 100px;
+  align-self: flex-start;
+}
+header div.jumbotron div.leftCard div.leftButton {
+  padding: 15px;
+  border: 1px solid black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
+  color: white;
+}
+header div.jumbotron div.leftCard div.rightButton {
+  padding: 15px;
+  border: 1px solid black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
+}
 
 * {
   margin: 0;

@@ -5,7 +5,7 @@ $listPadding: 15px;
 $listMargin: 5px;
 $logoImgWidth: 85px;
 $textColorMenu: white;
-
+$buttonBorder: 1px solid black;
 
 // mixins
 @mixin myListTypeMenu {
@@ -20,4 +20,24 @@ $textColorMenu: white;
         text-decoration: underline;
         text-shadow: 1px 1px lightgrey;;
     }
+}
+
+@mixin jumbotron {
+    background-image: url(img/bg-painter-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    display: $divFlex;
+    flex-direction: column; 
+}
+
+@mixin jumbotronDisplay {
+       
+}
+
+@mixin buttonHeader {
+    padding: $listPadding;
+    border: $buttonBorder;
+    width: fit-content;
+    display: inline-block;
 }

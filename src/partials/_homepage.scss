@@ -37,4 +37,21 @@ header {
             }
         }
     }
+    div.jumbotron {
+        @include jumbotron;
+        align-content: flex-start;
+        justify-content: center;
+        div.leftCard {
+            margin-left: 100px;
+            align-self: flex-start;
+            div.leftButton{
+                @include buttonHeader;
+                color: $textColorMenu;
+            }
+            div.rightButton {
+                @include buttonHeader;
+            }
+        }
+        
+    }
 }
